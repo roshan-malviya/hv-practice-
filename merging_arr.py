@@ -6,4 +6,6 @@ def merger(arr1,ar2):
 				ar1[j],ar1[j+1]=ar1[j+1],ar1[j]
 	return ar1
 
-print(merger([1,2,8,4],[9,5,3,7]))
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+print(merger(b,c))

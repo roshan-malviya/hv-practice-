@@ -48,7 +48,7 @@ def greatn (arr):
         	c=arr[i+1]
     return (f'great value is {j} second greate value is {c}')
 
-b=list(map(int,input()))
+b=list(map(int,input().split()))
 print (greatn(b))
 
 
