@@ -15,25 +15,26 @@
 # 	return False
 
 
-a=[1,2,3,4,5,8,7]
-# b=7
-# print(bs(a,b))
+# a=[1,2,3,4,5,8,7]
+# # b=7
+# # print(bs(a,b))
 
 
-def sorting_check(arr):
-	# checking for accending ordere
-	if a[0]<=a[1]:
-		for i in range(len(a)-1):
-			if a[i]<a[i+1]:
-				pass
-			else:
-				return False
-		return True
-	else:
-		for i in range(len(a)-1):
-			if a[i]>a[i+1]:
-				pass
-			else:
-				return False
-		return True
-print(sorting_check(a))
+# def sorting_check(arr):
+# 	# checking for accending ordere
+# 	if a[0]<=a[1]:
+# 		for i in range(len(a)-1):
+# 			if a[i]<a[i+1]:
+# 				pass
+# 			else:
+# 				return False
+# 		return True
+# 	else:
+# 		for i in range(len(a)-1):
+# 			if a[i]>a[i+1]:
+# 				pass
+# 			else:
+# 				return False
+# 		return True
+# print(sorting_check(a))
+
