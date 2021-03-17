@@ -44,7 +44,11 @@ def greatn (arr):
         if j<arr[i+1]:
             c=j
             j=arr[i+1]
+        elif j>arr[i+1]:
+        	c=arr[i+1]
     return (f'great value is {j} second greate value is {c}')
 
-l=greatn([1,3,4,5,6,2,3,7])
-print (l)
+b=list(map(int,input()))
+print (greatn(b))
+
+
