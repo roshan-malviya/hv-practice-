@@ -1,6 +1,6 @@
 
 
-# #function for reversing an array
+# @@@@@@@@@@@@@@@@function for reversing an array @@@@@@@@@@@@@@@@@@@@@@@@2
 # def reve (arr):
 #     for i in range (len(arr)//2):
 #         arr[i],arr[-1-i]=arr[-1-i],arr[i]
@@ -11,7 +11,7 @@
 # print(reve(k))
 
 
-# # function for searching an element in array
+# @@@@@@@@@@function for searching an element in array @@@@@@@@@@@@@@@@@@
 
 # def serach (arr,ele):
 #     b=len(arr)//2
@@ -31,24 +31,37 @@
 #         print ('no')
 # elif serach(a,b):
 #     print('yes')
+# def greatn (arr):
+#     j=arr[0]
+#     for i in range (len(arr)-1):
+#         if j<arr[i+1]:
+#             c=j
+#             j=arr[i+1]
+#         elif j>arr[i+1]:
+#         	c=arr[i+1]
+#     return (f'great value is {j} second greate value is {c}')
+
+# b=list(map(int,input().split()))
+# print (greatn(b))
+
 # else:
 #     print('no')
 
 
-# function for largest number
+# @@@@@@@@2@@function for largest number @@@@@@@@@@@@
 
 
-def greatn (arr):
-    j=arr[0]
-    for i in range (len(arr)-1):
-        if j<arr[i+1]:
-            c=j
-            j=arr[i+1]
-        elif j>arr[i+1]:
-        	c=arr[i+1]
-    return (f'great value is {j} second greate value is {c}')
+# def greatn (arr):
+#     j=arr[0]
+#     for i in range (len(arr)-1):
+#         if j<arr[i+1]:
+#             c=j
+#             j=arr[i+1]
+#         elif j>arr[i+1]:
+#         	c=arr[i+1]
+#     return (f'great value is {j} second greate value is {c}')
 
-b=list(map(int,input().split()))
-print (greatn(b))
+# b=list(map(int,input().split()))
+# print (greatn(b))
 
 
