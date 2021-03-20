@@ -9,15 +9,6 @@ def selection(arr):
 	return arr
 
 
-
-
-
-
-
-
-
-
-
 a=[1,9,5,7,2,54 ]
 print(selection(a))
 
