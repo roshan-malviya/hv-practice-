@@ -1,14 +1,15 @@
-def pairs(arr,k):
+def sum_pairs(arr,k):
+	main_lis=[]
+	for i in range(len(arr)):
+		f=[]
+		for j in range(i,len(arr)):
+			if arr[i]> k:
+				break
+			elif arr[i]+arr[j]==k:
+				f.append(arr[i])
+				f.append(arr[j])
+				main_lis.append(f)
+	return(main_lis)
 
-	a=[]
-	for i in arr:
-		n=[]
-		for j in arr:
-			if i+j==k:
-				n.append(i)
-				n.append(j)
-			a.append(n)
-	return(a)
 
-
-print(pairs([1,5,3,2,6,0],6))
+print(sum_pairs([2,3,4,0,5,6,1],3))
